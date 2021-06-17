@@ -1,3 +1,4 @@
+package src.peliculas;
 public class Peliculas {
     int id,anio;
     String nombre,categoria;
@@ -33,10 +34,10 @@ public class Peliculas {
     public String getCategoria() {
         return categoria;
     }
-    public void setDisponible(String disponible) {
+    public void setDisponible(boolean disponible) {
         this.disponible = disponible;
     }
-    public String getDisponible() {
+    public boolean getDisponible() {
         return disponible;
     }
     public String getDatos(){
